@@ -1,0 +1,37 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the whole page */
+body {
+  min-height: 100vh;
+  background-color: #4b0f1e; /* Dark wine-red */
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered content area */
+.hero {
+  text-align: center;
+  padding: 40px;
+}
+
+/* Main heading */
+.hero h1 {
+  color: #f5ead2; /* Cream color */
+  font-size: 4rem;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+/* Subtitle */
+.hero p {
+  color: #f5ead2;
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
